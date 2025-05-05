@@ -1,0 +1,23 @@
+{
+  "name": "03-laying-the-foundation",
+  "version": "1.0.0",
+  "description": "NPM != Node Package Manager\r NPM is anything but Node Package Manager, Does not have a fullform.",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Saksham Pethkar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "Browserslist": [
+    "last 2 versions"
+  ]
+}
