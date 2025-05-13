@@ -1,0 +1,24 @@
+- Do proper planning of the app
+    - you should exactly know what are you going to build
+    - what is the process of building it.
+    - Planning —> UI Mock (know the design) plan in detail the structure of code. (how many components the app will have eg. Header, card container, card, cart, search)
+    - Planning → Plan the functional and feature requirement, think how they will be implemented.
+    - 
+- Config driven UI - website driven by data - system design (config comes from backend) — UI is according to the data.
+- front-end = UI layer + data layer
+- Styles in React
+    - Inline styles are given using a JS object
+        - and to write JS we have to use { }, so we write style={}
+        - we have to provide styles in key value pair. so we write, styles={backgroundColor:”red”}
+        - we use camelCase to write the CSS properties.
+- Props
+    - Props are general arguments to a function as the react component is a function
+    - Pass data into component pass it using props.
+    - pass (send) data from parent to child
+    - passed props in parent are wrapped inside an object and we can receive this object and use the value.
+- Unique Key
+    - when we have multiple elements like when we loop the array, we have to give unique key to each element.
+    - when some new element is added or removed, react will re-render all elements if there is no unique key, and it does not know which one to add before or after
+    - if unique key is provided all the elements are not re-rendered only the updated element is re-rendered and added in the first place.
+    - key should be unique.
+    - not using key (not acceptable) > index as id (acceptable but not reccomended) > unique key (reccomended) ✅
