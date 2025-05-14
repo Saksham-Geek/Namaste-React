@@ -43,3 +43,7 @@ header{
     object-fit: cover;
 
 }
+
+.filter{
+    margin: 10px;
+}
